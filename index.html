@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <title>Sagar Lakhia</title>
+<script>
+
+
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/styles.css">
+  
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+<style>
+
+.nav {
+  text-align:center;
+}
+.navbar-nav {
+
+	padding-top:5px;
+    display:inline-block;
+    float:none;
+}
+.a{
+    font-size:x-small;
+
+}
+</style>
+
+</head>
+<body ng-app="single-page-app">
+  <div ng-controller="cfgController">
+ 
+  <div class="nav">
+  
+  <nav class="navbar navbar-inverse" role="navigation"  >
+         <ul class="nav navbar-nav">
+        <li><a href="#/">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#/projects">Projects</a></li>
+        <li><a href="#/skills">Skills</a></li>
+        <li><a href="#/message">Message</a></li>
+      </ul>
+</nav>
+</div>
+  
+  <div ng-view class="jumbotron"></div>
+  </div>
+</body>
+</html>
