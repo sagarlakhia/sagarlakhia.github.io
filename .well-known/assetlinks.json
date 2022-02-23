@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.intuit.turbotax.mobile",
-    "sha256_cert_fingerprints":
-    ["F3:9F:81:55:D0:FE:3D:A8:B9:4E:EE:EE:87:73:9B:CA:00:8B:04:EC:07:8D:3A:37:B0:F1:33:5A:3C:49:F8:7F"]
-  }
-}]
